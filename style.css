@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.5)50%,rgba(255, 255, 255, 0.5)50%), url(logo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 201, 52);
+    padding: 5px 5%;
+}
+
+.logo{
+    width: 80px;
+    border-radius: 50% 50%;
+    margin-right: 10px;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-right ul li img{
+    width: 35px;
+    margin: 0 15px;
+
+}
+
+.namalogo{
+    color: black;
+    font-size: 50px;
+    font-family: comic sans-serif;
+    padding-left: 0%;
+    float: left;
+    padding-top: 10px;
+    margin-right: 60px;
+}
+
+.nav-user-icon img{
+    margin-left: 50px;
+    width: 80px;
+    border-radius: 50% 50%;
+    cursor: pointer;
+}
+
+.searchbox{
+    background: white;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+
+}
+
+.searchbox img{
+    width: 18px;
+}
+
+.searchbox input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.fix-img img{
+    width: 100%;
+
+}
+.container{
+    margin-top: 70px;
+    margin-left: 45px;
+    margin-right: 45px;
+    background-color: rgb(255, 201, 52);
+    border-radius: 20px;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-3{
+    width: 25%;
+    padding: 30px;
+    padding-bottom: 60px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 3px 8px;
+}
+
+.deskp{
+    margin-left: 80px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.promo1{
+    width: 100%;
+    margin-left: 40px;
+    border-radius: 20%;
+}
+
+.desk1{
+    align-items: center;
+    color: black;
+    font-size: 28px;
+    font-family: comic sans-serif;
+    float: right;
+    margin-right: 30%;
+}
+
+.bonus1{
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.hargaawal{
+    margin-top: 20px;
+    color: white;
+    text-decoration: line-through;
+}
+.harga1{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.fix-img2 img{
+    width: 100%;
+}
+
+.container2{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.row2{
+    display: flex;
+    width: 70%;
+
+}
+
+.col-3-2{
+    border-radius: 20px;
+    width: 25%;
+    background-color: rgb(48, 48, 48);
+    margin: 30px;
+}
+
+.produk{
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+.krj2{
+    float: right;
+    align-items: center;
+    margin: 20px;
+}
+.krj2 ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.krj2 ul li img{
+    width: 35px;
+
+}
